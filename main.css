@@ -136,6 +136,17 @@ border:dashed;
 padding: 2px,2px,2px,2px;
 }
 
+#workerex1{
+ max-height:320px;
+ min-height:320px;
+ width: 50%;
+ 
+ #workerex2{
+ max-height:320px;
+ min-height:320px;
+ width: 50%;
+ 
+
 #maincontent{
 max-height:384px;
 min-height:384px;
