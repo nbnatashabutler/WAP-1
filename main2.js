@@ -1,9 +1,5 @@
-<button onclick="sayHI()">Say HI</button>
-<button onclick="unknownCmd()">Send unknown command</button>
-<button onclick="stop()">Stop worker</button>
-<output id="result"></output>
+var worker = new Worker('doWork.js');
 
-<script>
   function sayHI() {
     worker.postMessage({'cmd': 'start', 'msg': 'Hi'});
   }
@@ -22,4 +18,4 @@
   worker.addEventListener('message', function(e) {
     document.getElementById('result').textContent = e.data;
   }, false);
-</script>
+
