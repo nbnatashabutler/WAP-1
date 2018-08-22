@@ -23,7 +23,20 @@ while (count < 10) {
  
     count++;
 }
-
+// do while 
 do {
     document.writeln("This code will run once!");
+} while (false)
+
+    // let while 
+const reqlimit = 10;
+
+// Start off with 0 fish
+let jobs = 0;
+
+// Initiate while loop to run until fish reaches population limit
+while (jobs < reqlimit) {
+    // add one fish for each iteration
+    job++;
+    document.writeln("There's room for " + (reqlimit - job) + " more jobs.");
 }
