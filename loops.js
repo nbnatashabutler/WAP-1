@@ -19,7 +19,7 @@ for (var i = 0; i < myArray.length; i++) {
 var count = 0;
         
 while (count < 10) {
-    document.writeln("you will see this 9 times");
+    document.writeln("you will see this 10 times");
  
     count++;
 }
