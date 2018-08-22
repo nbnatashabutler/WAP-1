@@ -154,6 +154,14 @@ width:100%;
 border:solid;
 padding: 2px,2px,2px,2px;
 }
+  
+  img {
+  width: 600px;
+  height: 450px;
+  background: url(https://giphy.com/gifs/3oEjI6SIIHBdRxXI40/html5) 50% no-repeat;
+  border: 1px solid black;
+  border-radius: 5px;
+}
 
 #content1{
 max-height:800px;
