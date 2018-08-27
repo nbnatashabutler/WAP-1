@@ -113,6 +113,22 @@ Text will change to uppercase when you move the cursor out of the field.
   <button onclick="checkNumber()">Check</button>
 </div>
 </div>
+      <div>
+<canvas id="canvas" width="400" height="200" class="playable-canvas"></canvas>
+<div class="playable-buttons">
+  <input id="edit" type="button" value="Edit" />
+  <input id="reset" type="button" value="Reset" />
+</div>
+<textarea id="code" class="playable-code" style="height:140px;">
+ctx.beginPath();
+ctx.moveTo(20,20);
+ctx.lineTo(200,20);
+ctx.lineTo(120,120);
+ctx.closePath(); // draws last line of the triangle
+ctx.stroke();
+
+ctx.clearRect(10, 10, 100, 100);</textarea>
+      </div>
      </section>
   <section id =  bottomnav>
      </section>
@@ -126,7 +142,8 @@ Text will change to uppercase when you move the cursor out of the field.
 <script src = "onfocus.js"></script>
 <script src = "try.js"></script>   
 <script src = "jshide.js"></script>   
-<script src - "jQueryhide.js></script>
+<script src = "jQueryhide.js></script>
+<script src = "canvasevents.js></script>
     
   
 
