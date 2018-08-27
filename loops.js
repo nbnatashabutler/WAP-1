@@ -43,7 +43,8 @@ while (jobs < reqlimit) {
 
 //switch case 1
 // Set the student's grade
-const grade = 87;
+const grade  = () => {
+  document.getElementById("switchcase1").style.display = "none";
 
 switch (true) {
     // If score is 90 or greater
