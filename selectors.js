@@ -3,5 +3,5 @@ $(document).ready(function(){
 });
 //
 $(document).ready(function(){
-    $("p:nth-child(3)").css("background-color", "yellow");
+    $("p:nth-child(3)").css("background-color", "green");
 });
