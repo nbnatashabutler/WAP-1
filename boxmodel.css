@@ -1,0 +1,23 @@
+.box-model-wrap
+  margin-bottom: 50px
+  
+  span
+    margin-right: 15px
+
+    &:before
+      content: ''
+      display: inline-block
+      +size(13px)
+      border-radius: 50%
+      background: #ccc
+      margin-right: 3px
+      vertical-align: bottom
+
+    &.content:before
+      background: rgba(0, 255, 0, 0.19)
+    &.padding:before
+      background: lightblue
+    &.border:before
+      background: black
+    &.margin:before
+      background: lightcoral
