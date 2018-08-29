@@ -79,6 +79,14 @@ ul li a:hover + .hidden, .hidden:hover {
     display: block;
 }
 
+iframe {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.output {
+    background: #eee;
+}
 
 
 .show-menu {
