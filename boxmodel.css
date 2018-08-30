@@ -1,23 +1,40 @@
-.box-model-wrap
-  margin-bottom: 50px
-  
-  span
-    margin-right: 15px
+p, li{
 
-    &:before
-      content: ''
-      display: inline-block
-      +size(13px)
-      border-radius: 50%
-      background: #ccc
-      margin-right: 3px
-      vertical-align: bottom
+width:50px;
+height:50px;
+background: blue;
+list-style: none;
 
-    &.content:before
-      background: rgba(0, 255, 0, 0.19)
-    &.padding:before
-      background: lightblue
-    &.border:before
-      background: black
-    &.margin:before
-      background: lightcoral
+pading-top: 10em;
+padding-bottom: 10em;
+padding-left: 10em;
+padding-right: 10em;
+
+border-top: dashed;
+border-bottom: dashed;
+border-left: dashed;
+border-right: dashed;
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: 1em;
+margin-right: 1em;
+text-align: ;
+}
+
+ul{
+pading-top: 5em;
+padding-bottom: 5em;
+padding-left: 5em;
+padding-right: 5em;
+background: ;
+margin-top: 5em;
+margin-bottom: 5em;
+margin-left: 5em;
+margin-right: 5em;
+border: dashed;
+}
+
+h4{
+  margin-left: 05em
+  text-align: center
+}
